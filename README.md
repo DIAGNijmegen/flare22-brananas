@@ -8,7 +8,7 @@ This challenge features 50 labelled and 2000 unlabelled abdominal CT
 scans, on which 13 organs have to be annotated.
 We propose an uncertainty-guided self-learning framework to attack this
 semi-supervised organ segmentation problem.
-You can read our paper [here](https://doi.org/10.1007/978-3-031-23911-3_11)
+You can read our paper [here](https://doi.org/10.1007/978-3-031-23911-3_11).
 
 ## Training
 
