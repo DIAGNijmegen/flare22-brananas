@@ -2,12 +2,13 @@
 
 ## FLARE22 codebase of team brananas
 
-This repository contains the codebase for the [FLARE22](https://flare22.grand-challenge.org/)
-MICCAI challenge of team brananas (Natalia Alves & Bram de Wilde).
+This repository contains the codebase of team brananas (Natalia Alves & Bram de Wilde)
+for the [FLARE22](https://flare22.grand-challenge.org/) MICCAI challenge.
 This challenge features 50 labelled and 2000 unlabelled abdominal CT
 scans, on which 13 organs have to be annotated.
 We propose an uncertainty-guided self-learning framework to attack this
 semi-supervised organ segmentation problem.
+You can read our paper [here](https://doi.org/10.1007/978-3-031-23911-3_11)
 
 ## Training
 
@@ -74,5 +75,17 @@ docker build . --tag brananas:latest
 If you use this framework, or parts of it, please cite us as follows:
 
 ```
-TODO
+@InProceedings{10.1007/978-3-031-23911-3_11,
+author="Alves, Nat{\'a}lia
+and de Wilde, Bram",
+editor="Ma, Jun
+and Wang, Bo",
+title="Uncertainty-Guided Self-learning Framework for Semi-supervised Multi-organ Segmentation",
+booktitle="Fast and Low-Resource Semi-supervised Abdominal Organ Segmentation",
+year="2022",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="116--127",
+isbn="978-3-031-23911-3"
+}
 ```
